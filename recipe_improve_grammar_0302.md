@@ -29,6 +29,7 @@ Condition: a text starts with a capital letter and ends with a suitable sentence
 
 improve_grammar('This is a sentence') -> False
 improve_grammar('This is a sentence.') -> True
+improve_grammar('') -> raises error 'Empty string!'
 
 
 4. Implement the Behaviour
