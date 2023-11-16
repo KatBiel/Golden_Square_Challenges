@@ -16,5 +16,5 @@ class MusicList:
     def show_list_of_songs(self):
         if not self.list:
             raise Exception('Error: list is empty')
-        return print(self.list)
+        return self.list
 
